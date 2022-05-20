@@ -71,7 +71,7 @@ Online payment providers
    * - :doc:`Adyen <payment_providers/adyen>`
      - Payment from Odoo
      - |V|
-     - Full only
+     - Full and partial
      - Full and partial
      -
    * - :doc:`Amazon Payment Services <payment_providers/amazon_payment_services>`
@@ -215,6 +215,9 @@ and by ticking the :guilabel:`Capture Amount Manually` checkbox.
 To capture the payment after it was authorized, go to the related sales order or invoice and click
 on the :guilabel:`CAPTURE TRANSACTION` button. To release the funds, click on the :guilabel:`VOID
 TRANSACTION` button.
+
+If your acquirer support the partial capture, you may additionally choose the amount you want to
+capture, and tick whether the remaining amount has to be voided or wait for another partial capture.
 
 .. note::
    - Some payment providers support capturing only part of the authorized amount. The remaining
