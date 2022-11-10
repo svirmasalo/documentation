@@ -20,7 +20,7 @@ ADMONITION_MAPPING = {
 
     'tip': 'alert-tip',
 
-    'seealso': 'alert-go_to',
+    'seealso': 'alert-go-to',
 
     'warning': 'alert-warning',
     'attention': 'alert-warning',
